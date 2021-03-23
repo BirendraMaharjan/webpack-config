@@ -1,0 +1,29 @@
+{
+  "name": "webpack-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve",
+    "watch": "webpack --watch",
+    "build": "webpack",
+    "eject": "webpack eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BirendraMaharjan/webpack-config.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BirendraMaharjan/webpack-config/issues"
+  },
+  "homepage": "https://github.com/BirendraMaharjan/webpack-config#readme",
+  "devDependencies": {
+    "webpack": "^5.27.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
