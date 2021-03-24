@@ -6,9 +6,11 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npm run start",
     "start": "webpack serve",
     "watch": "webpack --watch",
-    "build": "webpack",
+    "build": "cross-env NODE_ENV=production webpack",
+    "build-dev": "webpack",
     "eject": "webpack eject"
   },
   "repository": {
@@ -22,6 +24,10 @@
   },
   "homepage": "https://github.com/BirendraMaharjan/webpack-config#readme",
   "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.12",
+    "babel-loader": "^8.2.2",
+    "cross-env": "^7.0.3",
     "webpack": "^5.27.2",
     "webpack-cli": "^4.5.0",
     "webpack-dev-server": "^3.11.2"
