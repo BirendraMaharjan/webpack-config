@@ -6,6 +6,8 @@ git branch -M main
 git remote add origin https://github.com/BirendraMaharjan/webpack-config.git
 git push -u origin main
 
+### npm init (-y for every this for yes)
+
 npm init -y
 
 #### webpack
@@ -17,6 +19,18 @@ npm install or npm i
 
 npm i -D babel-loader @babel/core @babel/preset-env
 
-### node env
+#### node env
 
 npm i -D cross-env
+
+#### css
+
+npm i -D css-loader mini-css-extract-plugin
+
+#### scss
+
+npm i -D sass sass-loader
+
+### post css (for brwoser prefix)
+
+npm i -D postcss postcss-preset-env postcss-loader

@@ -1,3 +1,4 @@
+import './styles/index.scss';
 const eventShieldRecipe = {
   leatherStripe: 2,
   ironIngo: 1,
